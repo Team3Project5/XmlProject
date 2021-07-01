@@ -9,18 +9,12 @@ namespace XmlProject
 {
     class XMLReader
     {
-        public void ReadXml()
+        public XmlNode ReadXml(string filePath)
         {
             XmlDocument xmldoc = new XmlDocument();
-            // put the path
-            xmldoc.Load(@"path");
-            foreach (XmlNode node in xmldoc.DocumentElement.ChildNodes)
-            {
-                string studentName = node.Name;
-                Console.WriteLine("Student's Name:" + studentName + ": ");
-                string text = node.InnerText;
-                Console.WriteLine(text);
-            }
+            xmldoc.Load(filePath);
+
+            return xmldoc.DocumentElement.ChildNodes[0];
         }
         public XmlNode GetName(XmlNode allNodes, string name)
         {
