@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yasmin\\.nuget\\packages\\": {}
+    "C:\\Users\\Samirah Alhusayni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yasmin\\Documents\\.NET Bootcamp\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
+      "projectUniqueName": "D:\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
       "projectName": "XmlProject",
-      "projectPath": "C:\\Users\\Yasmin\\Documents\\.NET Bootcamp\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
-      "packagesPath": "C:\\Users\\Yasmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yasmin\\Documents\\.NET Bootcamp\\XmlProject\\XmlProject\\XmlProject\\obj\\",
+      "projectPath": "D:\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
+      "packagesPath": "C:\\Users\\Samirah Alhusayni\\.nuget\\packages\\",
+      "outputPath": "D:\\XmlProject\\XmlProject\\XmlProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yasmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Samirah Alhusayni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
