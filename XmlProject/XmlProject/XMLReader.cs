@@ -22,5 +22,16 @@ namespace XmlProject
                 Console.WriteLine(text);
             }
         }
+        public XmlNode GetName(XmlNode allNodes, string name)
+        {
+            foreach(XmlNode node in allNodes)
+            {
+                if(node.ChildNodes[0].InnerText == name)
+                {
+                    return node;
+                }
+            }
+            return null;
+        }
     }
 }
