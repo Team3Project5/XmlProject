@@ -9,7 +9,13 @@ namespace XmlProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] lines =  ReadFromFile.ReadFile();
+
+            // use lines here.. ex:
+            foreach (string line in lines)
+            {
+                Console.WriteLine(line);
+            }
         }
     }
 }

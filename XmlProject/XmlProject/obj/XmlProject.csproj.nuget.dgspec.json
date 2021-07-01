@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj": {}
+    "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\designPatterns\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj": {}
   },
   "projects": {
-    "D:\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj": {
+    "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\designPatterns\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
+        "projectUniqueName": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\designPatterns\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
         "projectName": "XmlProject",
-        "projectPath": "D:\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
-        "packagesPath": "C:\\Users\\Samirah Alhusayni\\.nuget\\packages\\",
-        "outputPath": "D:\\XmlProject\\XmlProject\\XmlProject\\obj\\",
+        "projectPath": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\designPatterns\\XmlProject\\XmlProject\\XmlProject\\XmlProject.csproj",
+        "packagesPath": "C:\\Users\\SAFCSP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SAFCSP\\Desktop\\dotNetBootcamp\\designPatterns\\XmlProject\\XmlProject\\XmlProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Samirah Alhusayni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAFCSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
