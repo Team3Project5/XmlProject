@@ -7,24 +7,38 @@ namespace XmlProject
     {
         static void Main(string[] args)
         {
+            string filePath = @"../../../XmlOutput.xml";
+
+            
+            // get data from custom file then write it into xml (Default use)
+
+            Thread writerThread =
+                new Thread(() => WriteTeamMembersXmlFromFile(filePath));
+
+            writerThread.Start();
+
 
             /*
              
             // write xml (directly)
 
             Thread writerThread = 
-                new Thread(() => WriteTeamMembersXml(new string[] { "Anas", "Abdulaziz", "Samirah" }, @"../../../XmlOutput.xml"));
+                new Thread(() => WriteTeamMembersXml(new string[] { "Anas", "Abdulaziz", "Samirah" }, filePath));
 
             writerThread.Start();
 
             */
 
-            // get data from custom file then write it into xml
+            /*
+            
+            // query xml file and print out the queried member's name 
 
-            Thread writerThread =
-                new Thread(() => WriteTeamMembersXmlFromFile(@"../../../XmlOutput.xml"));
+            Thread readerThread =
+                new Thread(() => PrintMember("Abdulaziz Almohammadi", filePath));
 
-            writerThread.Start();
+            readerThread.Start();
+
+            */
         }
         public static void WriteTeamMembersXml(string[] names, string filePath)
         {
@@ -43,6 +57,17 @@ namespace XmlProject
             string[] names = ReadFromFile.ReadFile();
 
             WriteTeamMembersXml(names, filePath);
+        }
+
+        public static void PrintMember(string name, string filePath)
+        {
+            var reader = new XMLReader();
+
+            var memebers = reader.ReadXml(filePath);
+
+            var member = reader.GetName(memebers, name);
+
+            Console.WriteLine(member.InnerText);
         }
     }
 }
