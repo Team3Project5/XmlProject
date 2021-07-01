@@ -12,7 +12,7 @@ namespace XmlProject
             this.root = xmldoc.CreateElement("Members");
         }
 
-        public XMLWriter CreateMember(string name , string major){
+        public XMLWriter CreateMember(string name){
             XmlElement element = xmldoc.CreateElement("Member");
             XmlElement nameElement = xmldoc.CreateElement("Name");
 
