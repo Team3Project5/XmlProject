@@ -8,8 +8,17 @@ namespace XmlProject
         private XmlElement root;
 
         public XMLWriter(){
+
             this.xmldoc = new XmlDocument();
-            this.root = xmldoc.CreateElement("Members");
+
+            XmlElement xmlRoot = xmldoc.CreateElement("xml");
+            xmlRoot.SetAttribute("version", "1.0");
+            this.xmldoc.AppendChild(xmlRoot);
+
+            XmlElement membersElement = xmldoc.CreateElement("Members");
+            xmlRoot.AppendChild(membersElement);
+
+            this.root = membersElement;
         }
 
         public XMLWriter CreateMember(string name){
