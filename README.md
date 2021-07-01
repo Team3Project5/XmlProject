@@ -5,6 +5,8 @@ XML it’s an extensible markup language. This project allows you to write and r
 
 ## Features
 
+- Write xml file.
+- Read xml file.
  - Using threads.
  - Applying Single Responsibility Principle (SRP).
  - Read text file using System.IO Namespace.
